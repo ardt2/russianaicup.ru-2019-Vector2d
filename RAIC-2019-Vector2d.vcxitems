@@ -16,4 +16,10 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Vector2d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector2d.hpp" />
+  </ItemGroup>
 </Project>
