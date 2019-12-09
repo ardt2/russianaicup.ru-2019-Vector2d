@@ -13,10 +13,4 @@
   <ItemGroup>
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Games\aicup-cpp\Game1\Vector2d.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Games\aicup-cpp\Game1\Vector2d.cpp" />
-  </ItemGroup>
 </Project>
